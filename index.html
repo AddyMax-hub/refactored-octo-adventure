@@ -2,6 +2,20 @@
 <html>
 <head>
   <!-- Hotjar Tracking Code for https://addy091839.github.io/refactored-octo-adventure/ -->
+  
+  <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "969c44b2-8cf7-46ef-9c37-bb5af27b172d", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "5c18dcc3-b0a3-4fc7-9c55-b27723b1e116", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
